@@ -1,5 +1,5 @@
 
-
+import { Link } from 'react-router-dom';
 import agu from '../assets/agu.jpg'
 
 export const Header = () => {
@@ -11,9 +11,9 @@ export const Header = () => {
               </header>  
 
               <div className='nav'>
-              <nav className="navbar navbar-light bg-light">
-                <a className="link-danger" href="../pages/Contacto.jsx">Contacto</a>
-              </nav>
+                  <nav className="navbar navbar-light bg-light">
+                  <Link to="/componetes/Contact" className='boton_contacto'>Contacto</Link>
+                  </nav>
 
               </div>
 

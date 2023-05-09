@@ -5,6 +5,7 @@ import agugai from "../assets/agu.jpg"
 
 
 
+
 export const Home = () => {
   
   const nombre = "Agustin Tapie"
@@ -21,6 +22,7 @@ export const Home = () => {
         <Header/>
         <Main nombre={nombre} facultad={facultad} lenguajes ={lenguajes} alumno={alumno}/>
         <Footer/>
+        
     </>
   )
 }
