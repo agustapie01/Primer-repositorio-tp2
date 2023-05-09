@@ -3,8 +3,13 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
                   <body className="body_form">
+                  <div className='nav2'>
+                      <nav className="navbar navbar-light bg-light">
+                      <Link to="/" className='boton_contacto2'>Volver a inicio</Link>
+                      </nav>
+                  </div>
                   <div className="form2">
-                        <h1>Contacto:</h1>
+                        <h1 className='h1_form'>Contacto:</h1>
                         <form  className="form1">
                                 <label className="label_form">Nombre:</label><input type="text" placeholder="Ingrese su nombre"/><br />
                                 <label className="label_form">Apellido:</label><input type="text" placeholder="Ingrese su Apellido"/><br />
@@ -14,11 +19,6 @@ const Contact = () => {
                         </form>   
                   </div>  
 
-                  <div className='nav'>
-                      <nav className="navbar navbar-light bg-light">
-                      <Link to="/" className='boton_contacto'>Volver a inicio</Link>
-                      </nav>
-                  </div>
 
 
                   </body>
